@@ -56,10 +56,10 @@
 		CE5FAD90255E8A8F00F6BC76 /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
+				CE5FAD97255E8A8F00F6BC76 /* Main.storyboard */,
+				CE5FAD95255E8A8F00F6BC76 /* ViewController.swift */,
 				CE5FAD91255E8A8F00F6BC76 /* AppDelegate.swift */,
 				CE5FAD93255E8A8F00F6BC76 /* SceneDelegate.swift */,
-				CE5FAD95255E8A8F00F6BC76 /* ViewController.swift */,
-				CE5FAD97255E8A8F00F6BC76 /* Main.storyboard */,
 				CE5FAD9A255E8A9200F6BC76 /* Assets.xcassets */,
 				CE5FAD9C255E8A9200F6BC76 /* LaunchScreen.storyboard */,
 				CE5FAD9F255E8A9200F6BC76 /* Info.plist */,
