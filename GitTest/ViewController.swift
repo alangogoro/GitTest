@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        print(text)
+        print("It is \(text)")
     }
 
 }
