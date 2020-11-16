@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE46164A2562722D00074D1C /* UIButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4616492562722D00074D1C /* UIButtonHelper.swift */; };
 		CE5FAD92255E8A8F00F6BC76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5FAD91255E8A8F00F6BC76 /* AppDelegate.swift */; };
 		CE5FAD94255E8A8F00F6BC76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5FAD93255E8A8F00F6BC76 /* SceneDelegate.swift */; };
 		CE5FAD96255E8A8F00F6BC76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5FAD95255E8A8F00F6BC76 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE4616492562722D00074D1C /* UIButtonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonHelper.swift; sourceTree = "<group>"; };
 		CE5FAD8E255E8A8F00F6BC76 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5FAD91255E8A8F00F6BC76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5FAD93255E8A8F00F6BC76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				CE5FAD97255E8A8F00F6BC76 /* Main.storyboard */,
 				CE5FAD95255E8A8F00F6BC76 /* ViewController.swift */,
+				CE4616492562722D00074D1C /* UIButtonHelper.swift */,
 				CE5FAD91255E8A8F00F6BC76 /* AppDelegate.swift */,
 				CE5FAD93255E8A8F00F6BC76 /* SceneDelegate.swift */,
 				CE5FAD9A255E8A9200F6BC76 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5FAD96255E8A8F00F6BC76 /* ViewController.swift in Sources */,
+				CE46164A2562722D00074D1C /* UIButtonHelper.swift in Sources */,
 				CE5FAD92255E8A8F00F6BC76 /* AppDelegate.swift in Sources */,
 				CE5FAD94255E8A8F00F6BC76 /* SceneDelegate.swift in Sources */,
 			);
