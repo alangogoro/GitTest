@@ -17,8 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbg-We-dYX">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="182" y="423" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="KoY-8t-T0r"/>
+                                    <constraint firstAttribute="height" constant="50" id="b4n-3A-0eu"/>
+                                </constraints>
+                                <state key="normal" title="按鈕"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -29,6 +33,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Za0-IM-pMi"/>
+                    <connections>
+                        <outlet property="button" destination="Jbg-We-dYX" id="Qgz-sT-0fP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
